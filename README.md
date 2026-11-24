@@ -2,8 +2,6 @@
 
 **Team members:** Asaf Nachman, Yuval Mitrani, Eliran Keinan
 
-**Repository:** https://github.com/AsafNachman/algorithms-assignment-1
-
 C++ program that schedules one day of courses into classrooms and solves three
 optimization problems:
 
