@@ -1,0 +1,13 @@
+COUNT
+2 15
+Algorithms 540 600 5
+Operating_Systems 630 720 10
+ROOMS
+2
+1 Algorithms 540 600 5
+1 Operating_Systems 630 720 10
+2 Databases 570 660 1
+ENROLLMENTS
+2 15
+Algorithms 540 600 5
+Operating_Systems 630 720 10

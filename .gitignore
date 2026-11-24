@@ -1,0 +1,10 @@
+courses
+courses.exe
+tests
+tests.exe
+setup_check
+setup_check.exe
+*.o
+*.obj
+*.out.tmp
+my.out
