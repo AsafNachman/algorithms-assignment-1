@@ -1,4 +1,4 @@
-# Course Scheduling — COUNT, ROOMS, ENROLLMENTS
+# Course Scheduling - COUNT, ROOMS, ENROLLMENTS
 
 **Team members:** Asaf Nachman, Yuval Mitrani, Eliran Keinan
 
@@ -81,9 +81,9 @@ done
 * p(j) critique: a 3-course input where the "only check j-1" rule fails
   (correct p = {-1,-1,0}, buggy {-1,-1,-1}; optimum 15 vs 10).
 * Randomized, reproducible (own LCG, fixed seeds):
-  * seed `20261120`: 3000 inputs with 0–5 courses, times 0–20, enrollments 1–6,
+  * seed `20261120`: 3000 inputs with 0-5 courses, times 0-20, enrollments 1-6,
     compared with all three exhaustive solutions plus validity checks.
-  * seed `424242`: 300 inputs with 6–200 courses, times 0–1440, enrollments 1–1000,
+  * seed `424242`: 300 inputs with 6-200 courses, times 0-1440, enrollments 1-1000,
     validity checks only; number of rooms compared with the maximum overlap depth;
     scan and binary-search DP compared (same p array and identical lists).
 * Validity: no overlaps, no duplicate ids, records unchanged from input, every
